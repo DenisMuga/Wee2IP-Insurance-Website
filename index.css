@@ -1,0 +1,16 @@
+.header{
+    background-image: url('./Images/#hero-cover.3.png');
+    display: flex;
+    justify-content: space-between;
+}
+.HeaderLogn{
+    display: flex;
+    float: right;
+    margin-top: 2px;
+}
+.Caption{
+    margin-top: 400px;
+    text-align: center;
+    color: black;
+
+}
