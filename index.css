@@ -55,6 +55,55 @@
     align-content: center;
     margin-top: 5%;
     /* width: fit-content; */
-   
-
+}
+.PurpleColor{
+    display: inline;
+}
+.newsletter{
+    background-color: blueviolet;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 5px;
+    margin-top: 5%;
+}
+.button2{
+    text-align: right;
+    margin-top: 2%;
+}
+.Pricing{
+    text-align: center;
+}
+.card10, .card11, .card12{
+    display: inline-block;
+    padding: 20px;
+    max-width: 15%;
+    margin-left: 12%;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+    border: solid blue;
+}
+.card11{
+    background-color: darkblue;
+    height: 400px;
+}
+.WorldMap{
+    background-color: darkblue;
+    /* display:inline-flex; */
+    margin-top: 10%;
+    height: 100%;
+}
+.Wordings{
+    color: white;
+    display: flex;
+}
+.LoginPage{
+    display: flex;
+}
+.Appointment{
+    flex-grow: 3;
+}
+.LoginPage img{
+    height: 404px;
+    width: 20%;
 }
