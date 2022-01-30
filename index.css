@@ -1,31 +1,57 @@
 .header{
     background-image: url('./Images/hero-cover.3.png');
-    display: flex;
-    justify-content: space-between;
-    max-width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* max-width: 100%; */
     padding: 20%;
     background-repeat: no-repeat;
     background-size: 100%;
 }
+.ThreeTopItems{
+    display: inline-flex;
+    justify-content: space-evenly;
+
+}
 .HeaderLogn{
     display: flex;
-    float: right;
-    margin-top: 2px;
+    /* float: right; */
+    /* margin-top: 2px; */
 }
 .Caption{
-    margin-top: 400px;
+    margin-top: 20px;
     text-align: center;
-    color: black;
+    color: white;
 }
 .card1, .card2, .card3{
     display: inline-block;
     padding: 40px;
-    max-width: 15%;
+    max-width: 20%;
     margin-left: 10%;
     justify-content: center;
-    border: solid blue;
-    margin-top: 3%;
+    border: white;
+    margin-top: 17%;
     
+}
+.card1{
+    background-color: white;
+    font-size: 10px;
+    width: 30%;
+    padding: 10px;
+}
+.card2{
+    background-color: white;
+    font-size: 10px;
+    width: 30%;
+    padding: 10px;
+}
+.card3{
+    background-color: blue;
+    font-size: 10px;
+    width: 30%;
+    padding: 10px;
+}
+.ThreeBoxes{
+    margin-top: 2px;
 }
 .card4, .card5, .card6{
         display: inline-block;
