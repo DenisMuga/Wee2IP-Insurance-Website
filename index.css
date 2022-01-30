@@ -14,8 +14,6 @@
 }
 .HeaderLogn{
     display: flex;
-    /* float: right; */
-    /* margin-top: 2px; */
 }
 .Caption{
     margin-top: 20px;
@@ -24,13 +22,11 @@
 }
 .card1, .card2, .card3{
     display: inline-block;
-    padding: 40px;
     max-width: 20%;
     margin-left: 10%;
     justify-content: center;
     border: white;
     margin-top: 17%;
-    
 }
 .card1{
     background-color: white;
