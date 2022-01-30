@@ -111,3 +111,7 @@
     justify-content: space-evenly;
     margin-left: 0px;
 }
+.Footer{
+    display: flex;
+    justify-content: space-evenly;
+}
