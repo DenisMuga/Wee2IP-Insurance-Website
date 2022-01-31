@@ -190,7 +190,9 @@ padding: 30px
 }
 .LoginPage{
     display: flex;
-    margin-left: 40%;
+    margin-left: 30%;
+    margin-top: -15%;
+
 }
 .Appointment{
     flex-grow: 3;
