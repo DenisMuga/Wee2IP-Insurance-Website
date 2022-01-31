@@ -16,7 +16,7 @@ header{
     background-color: #252B42;
     
 }
-.navi{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -25,25 +25,25 @@ header{
 
 }
 
-.navi2 ul{
+.navbar2 ul{
     display: flex;
 }
-.navi2 li{
+.navbar2 li{
     margin-right: 20px;
     list-style: none;
     color: white;
 }
-.navi3{
+.navbar3{
     display: flex;
 }
-.navi3 p{
+.navbar3 p{
     margin-right: 2px;
 }
-.navi3 button{
+.navbar3 button{
     background-color: #1d3183;
     border-radius: 8%;
 }
-.btext{
+.Caption{
     color: white;
    justify-content: space-around;
    text-align: center;
@@ -70,7 +70,6 @@ header{
 }
 /* .HeaderLogn{
     display: flex; */
-}
 /* .Caption{
     margin-top: 20px;
     text-align: center;
