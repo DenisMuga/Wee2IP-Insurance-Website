@@ -187,6 +187,7 @@ header{
 .Industry{
     text-align: center;
     margin-top: 10%;
+    background-color: rgb(241, 237, 237);
 }
 .card7, .card8, .card9{
     display: inline-block;
@@ -221,6 +222,7 @@ padding: 30px
 .Pricing{
     text-align: center;
     margin-top: 10%;
+    background-color: rgb(241, 237, 237);
 }
 .TallerBoxes{
     display: flex;
@@ -232,6 +234,7 @@ padding: 30px
     margin-top: 20vh;
     border-radius: 25px;
     margin-bottom: 30vh;
+    background-color: rgb(241, 237, 237);
 
 
 }
@@ -315,6 +318,7 @@ padding: 30px
     margin-top: 8%;
     display: flex;
     justify-content: space-between;
+    background-color: rgb(241, 237, 237);
 }
 .MoreLinks{
     margin-top: 5%;
