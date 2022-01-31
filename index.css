@@ -292,15 +292,18 @@ padding: 30px
 .Appointment{
 
     background-color: whitesmoke;
-    width: 80%;
-    
+    width: 80%;   
+}
+.Wordings h4{
+    font-size: 30px;
 }
 
 .Appointment input {
     width:50%;
     margin-bottom: 5%;
     padding: 5px; 
-    border-radius: 5px; 
+    border-radius: 5px;
+    border-width: 0px; 
 }
 .Appointment h3{
     margin-bottom: 5%;
@@ -324,4 +327,5 @@ padding: 30px
     justify-content: space-between;
     margin-top: 5%;
     margin-bottom: 5px;
+    background-color: rgb(241, 237, 237);
 }
