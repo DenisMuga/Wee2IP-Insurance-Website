@@ -1,0 +1,16 @@
+/* ul{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    color: white;
+} */
+.caption button {
+    border-radius: 50px 20px;
+    padding: 10px;
+    background-color: rgb(255, 136, 0);
+    color: white;
+    border: 2px solid rgb(255, 136, 0);
+    margin: 10px 50px;
+    font-size: 20px;
+  }
+  

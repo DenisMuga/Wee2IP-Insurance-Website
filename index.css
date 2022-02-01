@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'montserrat';
+}
+@media screen and (min-width: 480px) {
+    body{
+    font-family: font-family: 'Montserrat', sans-serif;;
+    line-height: 2.0;
+    margin: 20px;
+}
+}
+header{
+    background-image: url(./Images/hero-cover.3.png);
+    background-size: cover;
+    /* padding: 20%; */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* height: 800px; */
+    max-width: 100%;
+    /* background-color: #252B42; */
+    
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: large;
+    color: white;
+}
+.navbar2 ul{
+    display: flex;
+    color: white;
+}
+.navbar2 li{
+    margin-right: 20px;
+    list-style: none;
+    color: white;
+}
+.navbar3{
+    display: flex;
+}
+.navbar3 p{
+    margin-right: 2px;
+}
+.navbar3 button{
+    background-color: rgb(17, 170, 221);
+    border-radius: 8%;
+    height: 6vh;
+    width: 200px;
+    border: white;
+}
+.Caption{
+    color: white;
+   justify-content: space-around;
+   text-align: center;
+   margin-top: 25%;
+   padding: 40px;
+   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button-43{
+    background-color: rgb(17, 170, 221);
+    border-radius: 8%;
+    height: 6vh;
+    width: 200px;
+    border: white;
+    color: white;
+}
+.button-44{
+    background-color: rgb(204, 198, 198);;
+    border-radius: 8%;
+    height: 6vh;
+    width: 200px;
+    border: white;
+    color: white;
+}
+.button-50, .button-49, .button-48{
+    background-color: rgb(17, 170, 221);
+    border-radius: 8%;
+    height: 6vh;
+    width: 200px;
+    border: white;
+    color: white;
+}
+.button-60, .button-80{
+    background-color: rgb(17, 170, 221);
+    border-radius: 8%;
+    height: 6vh;
+    width: 200px;
+    border: white;
+    color: white;
+  }
+  .button-70{
+    background-color: rgb(17, 170, 221);
+    border-radius: 8%;
+    height: 6vh;
+    width: 280px;
+    border: white;
+    color: white;
+  }
+/* End of NewCSS */
+
+/* .header{
+    background-image: url('./Images/hero-cover.3.png');
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* max-width: 100%; */
+    /* padding: 20%;
+    background-repeat: no-repeat;
+    background-size: 100%; 
+} 
+/* .ThreeTopItems{
+    display: inline-flex;
+    justify-content: space-evenly; 
+
+}
+/* .HeaderLogn{
+    display: flex; */
+/* .Caption{
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+} */
+.card1, .card2, .card3{
+    /* display: flex;
+    max-width: 10%;
+    margin-left: 10%;
+    justify-content: center;
+    border: white;
+    margin-top: 50%;
+    align-content: center;
+    text-align: center; */
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid grey;
+    background-color: white;
+    margin-bottom: -100px;
+    align-content: center;
+    height: 200px;
+    border: 4px;
+    border: 1px solid grey;
+    height: 250px;
+    box-shadow: 5px white;
+}
+.card1{
+    background-color: white;
+    font-size: 10px;
+    width: 500px;
+    padding: 10px;
+    height: 20vh;
+}
+.card2{
+    background-color: white;
+    font-size: 10px;
+    width: 350px;
+    padding: 10px;
+    height: 20vh;
+}
+.card3{
+    background-color: blue;
+    font-size: 10px;
+    width: 350px;
+    padding: 10px;
+    height: 20vh;
+
+}
+.ThreeeBoxes{
+    /* margin-top: 5px;  */
+    display: flex; 
+    align-content: center;
+    /* margin-left: 10%;  */
+    /* height: 40%;  */
+
+    width: 100%;
+    justify-content: center;
+    /* background-color: yellow; */
+}
+.IndependentIcons{
+    margin-top: 15%;
+}
+.card4, .card5, .card6{
+        display: inline-block;
+        padding: 20px;
+        max-width: 15%;
+        margin-left: 12%;
+        justify-content: center;
+        margin-top: 2%;
+}
+.Industry{
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(241, 237, 237);
+}
+.card7, .card8, .card9{
+    display: inline-block;
+    padding: 20px;
+    max-width: 15%;
+    margin-left: 12%;
+    justify-content: center;
+    margin-top: 2%;
+    text-align: center;
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    height: 50px;
+    align-content: center;
+    margin-top: 5%;
+}
+.Subscription{
+    height: 80px;
+    margin-top: 5%;
+    display: flex;
+    background-color: purple;
+    /* background-color: linear-gradient(to right, purple pink); */
+    justify-content:space-between;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.button2{
+padding: 30px
+
+}
+
+.Pricing{
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(241, 237, 237);
+}
+.TallerBoxes{
+    display: flex;
+    text-align: left;
+    line-height: 40px;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20vh;
+    border-radius: 25px;
+    margin-bottom: 30vh;
+    background-color: rgb(241, 237, 237);
+
+
+}
+.card11{
+    background-color: #252B42;
+    /* height: 550px; */
+    color: white;
+    border:solid blue;
+    border-radius: 25px;
+    height: 550px;
+    margin-top: -83px;
+}
+.card10, .card12{
+    border: solid blue;
+    border-radius: 25px;
+    height: 100%;
+}
+.MapSection{
+    display: flex;
+    flex-direction: column;
+    /* width: 70vh; */
+    background-color: #252B42;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 40vh;
+    padding: 100px;
+}
+.MapSection img{
+    width: 400px;
+}
+.WorldMap{
+    display:flex;
+    margin-top: 2%;
+    height: 150%;
+    justify-content: space-between;
+    margin-bottom: 20vh;
+}
+.Wordings{
+    color: white;
+    /* float: left; */
+    margin-left: 100px ;
+    text-align: center;
+}
+.LoginPage{
+    display: flex;
+    margin-left: 30%;
+    margin-top: -30%;
+    width: 50%;
+}
+.Map{
+   float: right;
+   height: 1vh;
+}  
+.LoginPage img{
+    height: 404px;
+    width: 200px;
+}
+.Appointment{
+
+    background-color: whitesmoke;
+    width: 80%;   
+}
+.Wordings h4{
+    font-size: 30px;
+}
+
+.Appointment input {
+    width:50%;
+    margin-bottom: 5%;
+    padding: 5px; 
+    border-radius: 5px;
+    border-width: 0px; 
+}
+.Appointment h3{
+    margin-bottom: 5%;
+    margin-top: 5%;
+   margin-left: 8%;
+}
+
+.ContactUs{
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 237, 237);
+}
+.MoreLinks{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+.Footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    margin-bottom: 5px;
+    background-color: rgb(241, 237, 237);
+}
